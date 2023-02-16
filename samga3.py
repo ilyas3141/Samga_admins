@@ -14,7 +14,7 @@ DETA_KEY = st.secrets["DETA_KEY"]
 deta=Deta(DETA_KEY)
 
 
-db=deta.Base("clients")
+db=deta.Base("Samga_DB")
 db1=deta.Base("admins")
 now = datetime.now()
 d1= now.strftime("%d/%m/%Y %H:%M:%S")
